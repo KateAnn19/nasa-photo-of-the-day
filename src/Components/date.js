@@ -1,13 +1,11 @@
 import React from "react";
+import {StyledDate} from "./Styled";
 
 const Date = props => {
     console.log("these are the props", props);
     return (
-      <div className="" key="">
-        
-    
-          <h3>{props.date}</h3>
-        
+      <div>
+        <StyledDate>{props.date}</StyledDate>
       </div>
     );
   };
