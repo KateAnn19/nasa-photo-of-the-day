@@ -14,6 +14,7 @@ function PictureList() {
   useEffect(() => {
     axios
       .get(`https://api.nasa.gov/planetary/apod?api_key=Gpzn1C1y6JjbqH8M61qJib3d8QRHVzOXgYA83O3Q`)
+      
       .then(response => {
           console.log(response)
         console.log("This is response.data", response.data);
